@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.kalkulator-bmi {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 50px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+button[type="submit"],
+button[type="reset"] {
+  background-color: #4CAF50;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+button[type="reset"] {
+  background-color: #ccc;
+}
+
+.hasil-bmi {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.hasil-bmi a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.hasil-bmi a:hover {
+  text-decoration: underline;
+}
